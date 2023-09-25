@@ -1,0 +1,93 @@
+{
+  "name": "trdsys3",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.17",
+    "@mui/styled-engine-sc": "^5.10.16",
+    "@mui/x-data-grid": "^5.17.14",
+    "@mui/x-date-pickers": "^6.0.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "buffer": "^6.0.3",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.7",
+    "docx": "^7.8.2",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "html-to-pdfmake": "^2.4.15",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jszip": "^2.5.0",
+    "jszip-utils": "^0.1.0",
+    "kml-geojson": "^1.2.0",
+    "kml-placemarks-to-geojson": "^0.0.0",
+    "luxon": "^3.1.1",
+    "moment": "^2.29.4",
+    "node-stream-zip": "^1.15.0",
+    "ol": "^7.1.0",
+    "parse2-kmz": "^1.0.7",
+    "pdfmake": "^0.2.7",
+    "print-js": "^1.6.0",
+    "proj4": "^2.8.0",
+    "pumpify": "^2.0.1",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.4.5",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "5.0.1",
+    "reproject": "^1.2.7",
+    "request": "^2.88.2",
+    "shapefile": "^0.6.6",
+    "sheetjs-style": "^0.15.8",
+    "through2": "^4.0.2",
+    "togeojson": "^0.16.0",
+    "unzip2": "^0.2.5",
+    "web-vitals": "^2.1.4",
+    "xlsx-populate": "^1.21.0",
+    "xml-json": "^2.0.2",
+    "xml-objects": "^1.0.1",
+    "xml2js": "^0.4.23",
+    "xmldom": "^0.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "node": {
+    "fs": false,
+    "Buffer": false
+  }
+}

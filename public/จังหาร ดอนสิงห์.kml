@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="จังหาร_ดอนสิงห์" id="จังหาร_ดอนสิงห์">
+	<SimpleField name="PARCEL_S3_" type="float"></SimpleField>
+	<SimpleField name="INFO_SEQ" type="float"></SimpleField>
+	<SimpleField name="PARCEL_TYP" type="float"></SimpleField>
+	<SimpleField name="UTMMAP1" type="string"></SimpleField>
+	<SimpleField name="UTMMAP2" type="float"></SimpleField>
+	<SimpleField name="UTMMAP3" type="string"></SimpleField>
+	<SimpleField name="UTMMAP4" type="string"></SimpleField>
+	<SimpleField name="UTMSCALE" type="float"></SimpleField>
+	<SimpleField name="LAND_NO" type="float"></SimpleField>
+	<SimpleField name="LAND_TH" type="string"></SimpleField>
+	<SimpleField name="LAND_NAME" type="string"></SimpleField>
+	<SimpleField name="LANDOFFICE" type="float"></SimpleField>
+	<SimpleField name="BRANCH_COD" type="string"></SimpleField>
+	<SimpleField name="BRANCH_NAM" type="string"></SimpleField>
+	<SimpleField name="CHANGWAT_C" type="string"></SimpleField>
+	<SimpleField name="CHANGWAT_N" type="string"></SimpleField>
+	<SimpleField name="AMPHUR_COD" type="string"></SimpleField>
+	<SimpleField name="AMPHUR_NAM" type="string"></SimpleField>
+	<SimpleField name="TUMBON_COD" type="string"></SimpleField>
+	<SimpleField name="TUMBON_NAM" type="string"></SimpleField>
+	<SimpleField name="OPT_CODE" type="string"></SimpleField>
+	<SimpleField name="OPT_NAME" type="string"></SimpleField>
+	<SimpleField name="OPT_TYPE" type="string"></SimpleField>
+	<SimpleField name="ROAD_RN" type="float"></SimpleField>
+	<SimpleField name="STREET_RN" type="float"></SimpleField>
+	<SimpleField name="BLOCK_ZONE" type="float"></SimpleField>
+	<SimpleField name="BLOCK_PRIC" type="float"></SimpleField>
+	<SimpleField name="BLOCK_FIX_" type="float"></SimpleField>
+	<SimpleField name="BLOCK_BLUE" type="float"></SimpleField>
+	<SimpleField name="DATE_CREAT" type="string"></SimpleField>
+	<SimpleField name="USER_CREAT" type="string"></SimpleField>
+	<SimpleField name="DATE_UPDAT" type="string"></SimpleField>
+	<SimpleField name="USER_UPDAT" type="string"></SimpleField>
+	<SimpleField name="PARCEL_SHA" type="float"></SimpleField>
+	<SimpleField name="PREV_EVAPR" type="float"></SimpleField>
+	<SimpleField name="CURR_EVAPR" type="float"></SimpleField>
+	<SimpleField name="STANDARD_D" type="float"></SimpleField>
+	<SimpleField name="ST_VALUE" type="float"></SimpleField>
+	<SimpleField name="LOWEST_PRI" type="float"></SimpleField>
+	<SimpleField name="TABLE_NO" type="float"></SimpleField>
+	<SimpleField name="SUB_TABLE_" type="float"></SimpleField>
+	<SimpleField name="DEPTH_R" type="float"></SimpleField>
+	<SimpleField name="VAL_PER_WA" type="float"></SimpleField>
+	<SimpleField name="VAL_PER__1" type="float"></SimpleField>
+	<SimpleField name="FLAG_PARCE" type="string"></SimpleField>
+	<SimpleField name="STREET_NAM" type="string"></SimpleField>
+	<SimpleField name="PROCESS_ST" type="float"></SimpleField>
+	<SimpleField name="PARCEL_ID" type="string"></SimpleField>
+	<SimpleField name="TYPE_CODE" type="string"></SimpleField>
+	<SimpleField name="PROCESS_2S" type="string"></SimpleField>
+	<SimpleField name="PROCESS_3S" type="string"></SimpleField>
+	<SimpleField name="NRAI" type="float"></SimpleField>
+	<SimpleField name="NNHAN" type="int"></SimpleField>
+	<SimpleField name="NWAH" type="int"></SimpleField>
+	<SimpleField name="PARCEL_ZON" type="float"></SimpleField>
+	<SimpleField name="SURVEY_NO" type="float"></SimpleField>
+	<SimpleField name="ACTION_STA" type="float"></SimpleField>
+	<SimpleField name="ACTION_USE" type="string"></SimpleField>
+	<SimpleField name="DEPTH_VALU" type="float"></SimpleField>
+	<SimpleField name="ACTION_NOT" type="float"></SimpleField>
+	<SimpleField name="ACTION_DAT" type="string"></SimpleField>
+	<SimpleField name="DEPTH_VA_1" type="float"></SimpleField>
+	<SimpleField name="STREET_COD" type="string"></SimpleField>
+</Schema>
+<Folder><name>จังหาร_ดอนสิงห์</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#จังหาร_ดอนสิงห์">
+		<SimpleData name="PARCEL_TYP">2</SimpleData>
+		<SimpleData name="UTMMAP1">5741</SimpleData>
+		<SimpleData name="UTMMAP2">3</SimpleData>
+		<SimpleData name="UTMMAP3">5088</SimpleData>
+		<SimpleData name="UTMMAP4">00</SimpleData>
+		<SimpleData name="UTMSCALE">4000</SimpleData>
+		<SimpleData name="LAND_NAME">..3</SimpleData>
+		<SimpleData name="BRANCH_COD">45000000</SimpleData>
+		<SimpleData name="CHANGWAT_C">45</SimpleData>
+		<SimpleData name="BLOCK_PRIC">45002912</SimpleData>
+		<SimpleData name="LOWEST_PRI">100</SimpleData>
+		<SimpleData name="NRAI">1</SimpleData>
+		<SimpleData name="NNHAN">2</SimpleData>
+		<SimpleData name="NWAH">45</SimpleData>
+		<SimpleData name="DEPTH_VALU">0</SimpleData>
+		<SimpleData name="ACTION_NOT">0</SimpleData>
+		<SimpleData name="ACTION_DAT">2018-10-29</SimpleData>
+		<SimpleData name="DEPTH_VA_1">100</SimpleData>
+		<SimpleData name="STREET_COD">IS001.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>103.595597768027,16.1711290156329 103.59564992276,16.1707425638335 103.595426970786,16.1707609312788 103.595157310749,16.1707261339192 103.595034086731,16.1711965823972 103.594993923596,16.1714474565522 103.595221090296,16.1714756986227 103.595539947134,16.1715028020447 103.595597768027,16.1711290156329</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#จังหาร_ดอนสิงห์">
+		<SimpleData name="PARCEL_TYP">12</SimpleData>
+		<SimpleData name="UTMMAP1">5741</SimpleData>
+		<SimpleData name="UTMMAP2">3</SimpleData>
+		<SimpleData name="UTMMAP3">4888</SimpleData>
+		<SimpleData name="UTMMAP4">00</SimpleData>
+		<SimpleData name="UTMSCALE">4000</SimpleData>
+		<SimpleData name="LAND_NAME">..</SimpleData>
+		<SimpleData name="BRANCH_COD">45000000</SimpleData>
+		<SimpleData name="CHANGWAT_C">45</SimpleData>
+		<SimpleData name="LOWEST_PRI">100</SimpleData>
+		<SimpleData name="NRAI">0</SimpleData>
+		<SimpleData name="NNHAN">1</SimpleData>
+		<SimpleData name="NWAH">65</SimpleData>
+		<SimpleData name="DEPTH_VALU">4</SimpleData>
+		<SimpleData name="ACTION_DAT">2018-10-29</SimpleData>
+		<SimpleData name="DEPTH_VA_1">150</SimpleData>
+		<SimpleData name="STREET_COD">S001.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>103.581639230217,16.1684338618768 103.581173551451,16.1676899055478 103.580935685368,16.1680224966437 103.580734882901,16.1681738415113 103.580148921184,16.1684119239344 103.58010159657,16.1687774727888 103.580194349068,16.1691468372361 103.580457562895,16.1694395556328 103.580535843487,16.169748326723 103.580558159598,16.1703030344757 103.580675411607,16.1706408044323 103.580742721361,16.1709247508554 103.580929403105,16.1707879527353 103.581240474333,16.1707745487879 103.581534914058,16.1706604270394 103.581594998425,16.1706569573564 103.582178042176,16.1705333399252 103.581844232279,16.170340414349 103.582014089743,16.1699305481503 103.581738237197,16.1695983750195 103.581185245616,16.1691145524596 103.581207200972,16.1688227749529 103.581639230217,16.1684338618768</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#จังหาร_ดอนสิงห์">
+		<SimpleData name="PARCEL_TYP">2</SimpleData>
+		<SimpleData name="UTMMAP1">5741</SimpleData>
+		<SimpleData name="UTMMAP2">3</SimpleData>
+		<SimpleData name="UTMMAP3">4686</SimpleData>
+		<SimpleData name="UTMMAP4">00</SimpleData>
+		<SimpleData name="UTMSCALE">4000</SimpleData>
+		<SimpleData name="LAND_NAME">..3</SimpleData>
+		<SimpleData name="BRANCH_COD">45000000</SimpleData>
+		<SimpleData name="CHANGWAT_C">45</SimpleData>
+		<SimpleData name="BLOCK_PRIC">45002830</SimpleData>
+		<SimpleData name="LOWEST_PRI">150</SimpleData>
+		<SimpleData name="NRAI">0</SimpleData>
+		<SimpleData name="NNHAN">1</SimpleData>
+		<SimpleData name="NWAH">77</SimpleData>
+		<SimpleData name="DEPTH_VALU">0</SimpleData>
+		<SimpleData name="ACTION_NOT">0</SimpleData>
+		<SimpleData name="ACTION_DAT">2018-10-29</SimpleData>
+		<SimpleData name="DEPTH_VA_1">150</SimpleData>
+		<SimpleData name="STREET_COD">IS001.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>103.559026839327,16.1601630770419 103.559101844865,16.1601408504803 103.559209722322,16.1601563057988 103.559336074019,16.1601624440997 103.559362544463,16.1600138370427 103.559383333739,16.1597731600567 103.559402665145,16.1597334091129 103.559399048502,16.1595753961055 103.559428927945,16.1592299007528 103.559456512443,16.1592013277024 103.559433700082,16.1587352587361 103.559425889459,16.1586701987412 103.559317741586,16.1586555172148 103.559161690384,16.1586781771917 103.559170232487,16.1592104998045 103.559111852311,16.1592191952235 103.559093050773,16.1597372327353 103.558936890731,16.1597398121649 103.559026839327,16.1601630770419</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#จังหาร_ดอนสิงห์">
+		<SimpleData name="PARCEL_TYP">6</SimpleData>
+		<SimpleData name="UTMMAP1">5741</SimpleData>
+		<SimpleData name="UTMMAP2">3</SimpleData>
+		<SimpleData name="UTMMAP3">4886</SimpleData>
+		<SimpleData name="UTMMAP4">08</SimpleData>
+		<SimpleData name="UTMSCALE">1000</SimpleData>
+		<SimpleData name="BRANCH_COD">45000000</SimpleData>
+		<SimpleData name="CHANGWAT_C">45</SimpleData>
+		<SimpleData name="LOWEST_PRI">100</SimpleData>
+		<SimpleData name="NRAI">0</SimpleData>
+		<SimpleData name="NNHAN">2</SimpleData>
+		<SimpleData name="NWAH">42</SimpleData>
+		<SimpleData name="DEPTH_VALU">4</SimpleData>
+		<SimpleData name="ACTION_DAT">2018-10-29</SimpleData>
+		<SimpleData name="DEPTH_VA_1">525</SimpleData>
+		<SimpleData name="STREET_COD">S002.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>103.590720283129,16.1644414698374 103.590676764704,16.1642219081902 103.590642785177,16.1640353533164 103.590622735446,16.1637990277868 103.590072790598,16.1638708565514 103.590167212801,16.1645061976328 103.590720283129,16.1644414698374</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#จังหาร_ดอนสิงห์">
+		<SimpleData name="PARCEL_TYP">2</SimpleData>
+		<SimpleData name="UTMMAP1">5741</SimpleData>
+		<SimpleData name="UTMMAP2">3</SimpleData>
+		<SimpleData name="UTMMAP3">5088</SimpleData>
+		<SimpleData name="UTMMAP4">00</SimpleData>
+		<SimpleData name="UTMSCALE">4000</SimpleData>
+		<SimpleData name="LAND_NAME">28267</SimpleData>
+		<SimpleData name="BRANCH_COD">45000000</SimpleData>
+		<SimpleData name="CHANGWAT_C">45</SimpleData>
+		<SimpleData name="BLOCK_PRIC">45002912</SimpleData>
+		<SimpleData name="LOWEST_PRI">100</SimpleData>
+		<SimpleData name="NRAI">0</SimpleData>
+		<SimpleData name="NNHAN">3</SimpleData>
+		<SimpleData name="NWAH">31</SimpleData>
+		<SimpleData name="DEPTH_VALU">4</SimpleData>
+		<SimpleData name="ACTION_DAT">2018-10-29</SimpleData>
+		<SimpleData name="DEPTH_VA_1">375</SimpleData>
+		<SimpleData name="STREET_COD">S002.4</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>103.595718423302,16.1766593648543 103.595617569193,16.1762142498541 103.595613932621,16.175959406349 103.595594056885,16.175755186206 103.595528107391,16.1757597797163 103.595538941725,16.1756995023978 103.595452295002,16.1756871964254 103.595297894751,16.1756894056638 103.595276838089,16.1754780467004 103.59521641206,16.1754374158705 103.595194789847,16.175330290725 103.594950326065,16.1753054996207 103.594434088251,16.1754499754356 103.593943091924,16.175693868846 103.594427868131,16.1765276293083 103.594460158528,16.176583165342 103.594460387323,16.1765833458064 103.594537155533,16.1765760485248 103.59484776127,16.1765465245401 103.595024819373,16.1765292542572 103.595116657112,16.1765432712567 103.59553568143,16.1766516468711 103.595548823496,16.1767556674901 103.595638903826,16.1767730257885 103.595632498626,16.1766975465843 103.595718423302,16.1766593648543</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

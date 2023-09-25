@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Kanit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Kanit', 'Courier New',
+    monospace;
+}
+
+
+.ol-zoom.ol-unselectable.ol-control {
+  display: none;
+}
+
+.ol-rotate.ol-unselectable.ol-control.ol-hidden {
+  display: none;
+}
+
+.ol-attribution.ol-unselectable.ol-control.ol-uncollapsible {
+  display: none;
+}
+
+.custom-mouse-position {
+  display: none;
+}
+
+.ol-scale-bar.ol-unselectable {
+  display: none;
+}
+
+::-webkit-file-upload-button {
+  display: none;
+}
+
+.ol-popup {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+  bottom: 12px;
+  left: -50px;
+  min-width: 160px;
+}
+
+.ol-popup:after,
+.ol-popup:before {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.ol-popup:after {
+  border-top-color: white;
+  border-width: 10px;
+  left: 48px;
+  margin-left: -10px;
+}
+
+.ol-popup:before {
+  border-top-color: #cccccc;
+  border-width: 11px;
+  left: 48px;
+  margin-left: -11px;
+}
+
+.ol-popup-closer {
+  text-decoration: none;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+}
+
+.ol-popup-closer:after {
+  content: "✖";
+}
+
+/* Define A4 size */
+@media print {
+  body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style each element to fit within A4 size */
+  .print-element {
+    width: 100%;
+    page-break-before: always;
+  }
+}
